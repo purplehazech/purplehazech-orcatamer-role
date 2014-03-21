@@ -1,7 +1,6 @@
-
-# # Class: role::logstash
+# # Class: role::wordpress
 #
-class role::logstash {
+class role::wordpress {
   include ::profile::system
   include ::profile::wordpress
 
