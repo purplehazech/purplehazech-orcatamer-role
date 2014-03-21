@@ -4,6 +4,7 @@
 class role::puppet::master {
   include ::profile::system
   include ::profile::laymanadd
+  include ::profile::nginx
   include ::profile::puppet::master
 
   Class['::profile::system'] ->

@@ -2,6 +2,7 @@
 #
 class role::wordpress {
   include ::profile::system
+  include ::profile::nginx
   include ::profile::wordpress
 
   Class['::profile::system'] ->
